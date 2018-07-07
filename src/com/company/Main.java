@@ -25,6 +25,9 @@ public class Main {
 // 使用 lambda 表达式以及函数操作(functional operation)
         players.forEach((player) -> System.out.print(player + "; "));
         System.out.print("-------------------------------");
+        System.out.print("-------------------------------");
+        System.out.print("-------------------------------");
+        System.out.print("-------------------------------");
 
         /* 在 Java 8 中使用双冒号操作符(double colon operator) */
 
