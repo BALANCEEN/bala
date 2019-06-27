@@ -17,14 +17,14 @@ public class Main {
                 "Juan Martin Del Potro"};
         List<String> players =  Arrays.asList(atp);
 
-// 以前的循环方�?
+// ä»¥å‰çš„å¾ªçŽ¯æ–¹å¼?
 //        for (String player : players) {
 //            System.out.print(player + "; ");
 //        }
 
-// 使用 lambda 表达式以及函数操�?functional operation)
+// ä½¿ç”¨ lambda è¡¨è¾¾å¼ä»¥åŠå‡½æ•°æ“ä½?functional operation)
         players.forEach((player) -> System.out.print(player + "; "));
-        System.out.print("-------------------------------");
+        System.out.print("-------------------------------" );
         System.out.print("-------------------------------");
         System.out.print("-------------------------------");
         System.out.print("-------------------------------");
@@ -32,7 +32,7 @@ public class Main {
  System.out.print("-------------------------------");
 
 
-        /* �?Java 8 中使用双冒号操作�?double colon operator) */
+        /* åœ?Java 8 ä¸­ä½¿ç”¨åŒå†’å·æ“ä½œç¬?double colon operator) */
 
     }
 }
